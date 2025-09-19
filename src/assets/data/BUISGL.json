@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "BUISGL",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "id": 540, "properties": { "RCID": 541, "PRIM": 1, "GRUP": 2, "OBJL": 12, "RVER": 1, "AGEN": 12083, "FIDN": 541, "FIDS": 1, "LNAM": "2F330000021D0001", "FUNCTN": [ "4" ], "INFORM": "Dispensary" }, "geometry": { "type": "Point", "coordinates": [ 78.1752805, 8.7531233 ] } },
+{ "type": "Feature", "id": 558, "properties": { "RCID": 559, "PRIM": 1, "GRUP": 2, "OBJL": 12, "RVER": 1, "AGEN": 12083, "FIDN": 559, "FIDS": 1, "LNAM": "2F330000022F0001", "FUNCTN": [ "22" ] }, "geometry": { "type": "Point", "coordinates": [ 78.1585072, 8.8128507 ] } },
+{ "type": "Feature", "id": 561, "properties": { "RCID": 562, "PRIM": 1, "GRUP": 2, "OBJL": 12, "RVER": 1, "AGEN": 12083, "FIDN": 562, "FIDS": 1, "LNAM": "2F33000002320001", "FUNCTN": [ "20" ], "HEIGHT": 34.0 }, "geometry": { "type": "Point", "coordinates": [ 78.1564463, 8.7995842 ] } },
+{ "type": "Feature", "id": 562, "properties": { "RCID": 563, "PRIM": 1, "GRUP": 2, "OBJL": 12, "RVER": 1, "AGEN": 12083, "FIDN": 563, "FIDS": 1, "LNAM": "2F33000002330001", "CONVIS": 1, "FUNCTN": [ "20" ], "HEIGHT": 51.0, "OBJNAM": "SACRED HEART CATHEDRAL" }, "geometry": { "type": "Point", "coordinates": [ 78.1563318, 8.8048225 ] } },
+{ "type": "Feature", "id": 565, "properties": { "RCID": 566, "PRIM": 1, "GRUP": 2, "OBJL": 12, "RVER": 1, "AGEN": 12083, "FIDN": 566, "FIDS": 1, "LNAM": "2F33000002360001", "FUNCTN": [ "22" ] }, "geometry": { "type": "Point", "coordinates": [ 78.1465426, 8.8066445 ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "SISTAW",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "id": 504, "properties": { "RCID": 505, "PRIM": 1, "GRUP": 2, "OBJL": 124, "RVER": 1, "AGEN": 12083, "FIDN": 505, "FIDS": 1, "LNAM": "2F33000001F90001", "CATSIW": [ "12" ], "OBJNAM": "ATG" }, "geometry": { "type": "Point", "coordinates": [ 78.1996677, 8.7523831 ] } },
+{ "type": "Feature", "id": 516, "properties": { "RCID": 517, "PRIM": 1, "GRUP": 2, "OBJL": 124, "RVER": 1, "AGEN": 12083, "FIDN": 517, "FIDS": 1, "LNAM": "2F33000002050001", "CATSIW": [ "7" ] }, "geometry": { "type": "Point", "coordinates": [ 78.1970343, 8.7855776 ] } }
+]
+}

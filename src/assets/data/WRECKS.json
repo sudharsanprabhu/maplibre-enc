@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "WRECKS",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "id": 412, "properties": { "RCID": 413, "PRIM": 1, "GRUP": 2, "OBJL": 159, "RVER": 1, "AGEN": 12083, "FIDN": 413, "FIDS": 1, "LNAM": "2F330000019D0001", "CATWRK": 2, "WATLEV": 3 }, "geometry": { "type": "Point", "coordinates": [ 78.2952699, 8.7866025 ] } },
+{ "type": "Feature", "id": 424, "properties": { "RCID": 425, "PRIM": 1, "GRUP": 2, "OBJL": 159, "RVER": 1, "AGEN": 12083, "FIDN": 425, "FIDS": 1, "LNAM": "2F33000001A90001", "CATWRK": 2, "WATLEV": 3 }, "geometry": { "type": "Point", "coordinates": [ 78.2691653, 8.7995273 ] } },
+{ "type": "Feature", "id": 428, "properties": { "RCID": 429, "PRIM": 1, "GRUP": 2, "OBJL": 159, "RVER": 1, "AGEN": 12083, "FIDN": 429, "FIDS": 1, "LNAM": "2F33000001AD0001", "CATWRK": 2, "WATLEV": 3 }, "geometry": { "type": "Point", "coordinates": [ 78.253308, 8.6973246 ] } },
+{ "type": "Feature", "id": 456, "properties": { "RCID": 457, "PRIM": 1, "GRUP": 2, "OBJL": 159, "RVER": 1, "AGEN": 12083, "FIDN": 457, "FIDS": 1, "LNAM": "2F33000001C90001", "CATWRK": 2, "WATLEV": 3 }, "geometry": { "type": "Point", "coordinates": [ 78.2300085, 8.7931503 ] } },
+{ "type": "Feature", "id": 473, "properties": { "RCID": 474, "PRIM": 1, "GRUP": 2, "OBJL": 159, "RVER": 1, "AGEN": 12083, "FIDN": 474, "FIDS": 1, "LNAM": "2F33000001DA0001", "CATWRK": 2, "VALSOU": 6.6, "WATLEV": 3 }, "geometry": { "type": "Point", "coordinates": [ 78.2229671, 8.7886522 ] } },
+{ "type": "Feature", "id": 483, "properties": { "RCID": 484, "PRIM": 1, "GRUP": 2, "OBJL": 159, "RVER": 1, "AGEN": 12083, "FIDN": 484, "FIDS": 1, "LNAM": "2F33000001E40001", "CATWRK": 2, "VALSOU": 5.1, "WATLEV": 3 }, "geometry": { "type": "Point", "coordinates": [ 78.2188454, 8.7653648 ] } },
+{ "type": "Feature", "id": 486, "properties": { "RCID": 487, "PRIM": 1, "GRUP": 2, "OBJL": 159, "RVER": 1, "AGEN": 12083, "FIDN": 487, "FIDS": 1, "LNAM": "2F33000001E70001", "CATWRK": 2, "WATLEV": 3 }, "geometry": { "type": "Point", "coordinates": [ 78.2167272, 8.7883106 ] } },
+{ "type": "Feature", "id": 492, "properties": { "RCID": 493, "PRIM": 1, "GRUP": 2, "OBJL": 159, "RVER": 1, "AGEN": 12083, "FIDN": 493, "FIDS": 1, "LNAM": "2F33000001ED0001", "CATWRK": 2, "WATLEV": 3 }, "geometry": { "type": "Point", "coordinates": [ 78.2127772, 8.7938336 ] } }
+]
+}

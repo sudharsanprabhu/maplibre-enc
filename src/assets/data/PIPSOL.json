@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "PIPSOL",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "id": 348, "properties": { "RCID": 349, "PRIM": 2, "GRUP": 2, "OBJL": 94, "RVER": 1, "AGEN": 12083, "FIDN": 349, "FIDS": 1, "LNAM": "2F330000015D0001" }, "geometry": { "type": "LineString", "coordinates": [ [ 78.197206, 8.7614362 ], [ 78.1986372, 8.760696 ], [ 78.1997822, 8.7601266 ] ] } },
+{ "type": "Feature", "id": 349, "properties": { "RCID": 350, "PRIM": 2, "GRUP": 2, "OBJL": 94, "RVER": 1, "AGEN": 12083, "FIDN": 350, "FIDS": 1, "LNAM": "2F330000015E0001" }, "geometry": { "type": "LineString", "coordinates": [ [ 78.1969198, 8.7609237 ], [ 78.1984082, 8.7601835 ], [ 78.1995532, 8.7596711 ] ] } }
+]
+}

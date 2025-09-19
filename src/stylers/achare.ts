@@ -1,0 +1,47 @@
+import maplibregl from "maplibre-gl";
+
+export class Achare {
+
+    private map: maplibregl.Map;
+
+    constructor(data: any, map: maplibregl.Map) {
+        this.map = map;
+        const id = crypto.randomUUID();
+        map.addSource(id, {
+            type: "geojson",
+            data
+        });
+
+        this.render(id);
+    }
+
+    async render(id: string) {
+        this.map.addLayer({
+            id: id,
+            type: "line",
+            source: id,
+            paint: {
+                "line-color": ["rgb", 197, 69, 195],
+                "line-width": 2,
+                "line-dasharray": [6, 3]
+            },
+            layout: {
+                "line-cap": "round",
+                "line-join": "round"
+            }
+        });
+
+        const imagePath = "assets/icons/ACHARE02.png";
+        const achareImage = await this.map.loadImage(imagePath);
+        this.map.addImage("ACHARE02", achareImage.data);
+
+        this.map.addLayer({
+            id: `${id}-marker`,
+            type: "symbol",
+            source: id,
+            layout: {
+                "icon-image": "ACHARE02",
+            }
+        });
+    }
+}

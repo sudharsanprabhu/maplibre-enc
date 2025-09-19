@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "RECTRC",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "id": 350, "properties": { "RCID": 351, "PRIM": 2, "GRUP": 2, "OBJL": 109, "RVER": 1, "AGEN": 12083, "FIDN": 351, "FIDS": 1, "LNAM": "2F330000015F0001", "CATTRK": 1, "ORIENT": 277.8, "TRAFIC": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 78.1910806, 8.7977053 ], [ 78.1629152, 8.8015201 ] ] } },
+{ "type": "Feature", "id": 351, "properties": { "RCID": 352, "PRIM": 2, "GRUP": 2, "OBJL": 109, "RVER": 1, "AGEN": 12083, "FIDN": 352, "FIDS": 1, "LNAM": "2F33000001600001", "CATTRK": 1, "ORIENT": 311.5, "TRAFIC": 4 }, "geometry": { "type": "LineString", "coordinates": [ [ 78.2941822, 8.6889548 ], [ 78.2428318, 8.7341631 ], [ 78.225257, 8.7496501 ] ] } }
+]
+}

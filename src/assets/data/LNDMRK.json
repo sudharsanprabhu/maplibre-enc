@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "LNDMRK",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "id": 509, "properties": { "RCID": 510, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 510, "FIDS": 1, "LNAM": "2F33000001FE0001", "CATLMK": [ "5" ], "HEIGHT": 29.0 }, "geometry": { "type": "Point", "coordinates": [ 78.1979503, 8.7882537 ] } },
+{ "type": "Feature", "id": 511, "properties": { "RCID": 512, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 512, "FIDS": 1, "LNAM": "2F33000002000001", "CATLMK": [ "17" ], "HEIGHT": 27.0 }, "geometry": { "type": "Point", "coordinates": [ 78.197206, 8.7869441 ] } },
+{ "type": "Feature", "id": 515, "properties": { "RCID": 516, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 516, "FIDS": 1, "LNAM": "2F33000002040001", "LNAM_REFS": [ "2F33000002080001", "2F33000002070001", "2F33000002050001", "2F33000002060001" ], "FFPT_RIND": [ 2, 2, 2, 2 ], "CATLMK": [ "17" ], "COLOUR": [ "1", "2" ], "COLPAT": [ "2" ], "CONVIS": 1, "FUNCTN": [ "33" ], "NATCON": [ "2" ], "VERLEN": 23.0, "SORIND": "GB,GB,graph,LL F-0734" }, "geometry": { "type": "Point", "coordinates": [ 78.1970343, 8.7855776 ] } },
+{ "type": "Feature", "id": 523, "properties": { "RCID": 524, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 524, "FIDS": 1, "LNAM": "2F330000020C0001", "CATLMK": [ "9" ], "HEIGHT": 10.0 }, "geometry": { "type": "Point", "coordinates": [ 78.1913096, 8.7513013 ] } },
+{ "type": "Feature", "id": 538, "properties": { "RCID": 539, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 539, "FIDS": 1, "LNAM": "2F330000021B0001", "CATLMK": [ "3" ], "CONVIS": 1, "HEIGHT": 121.0, "INFORM": "More than one" }, "geometry": { "type": "Point", "coordinates": [ 78.1770552, 8.7621764 ] } },
+{ "type": "Feature", "id": 542, "properties": { "RCID": 543, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 543, "FIDS": 1, "LNAM": "2F330000021F0001", "CATLMK": [ "3" ], "CONVIS": 1 }, "geometry": { "type": "Point", "coordinates": [ 78.171216, 8.7603544 ] } },
+{ "type": "Feature", "id": 548, "properties": { "RCID": 549, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 549, "FIDS": 1, "LNAM": "2F33000002250001", "CATLMK": [ "3" ], "CONVIS": 1 }, "geometry": { "type": "Point", "coordinates": [ 78.1679529, 8.7638845 ] } },
+{ "type": "Feature", "id": 554, "properties": { "RCID": 555, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 555, "FIDS": 1, "LNAM": "2F330000022B0001", "CATLMK": [ "13" ], "CONVIS": 1, "OBJNAM": "SAINT MARY'S STATUE" }, "geometry": { "type": "Point", "coordinates": [ 78.1609688, 8.8117119 ] } },
+{ "type": "Feature", "id": 557, "properties": { "RCID": 558, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 558, "FIDS": 1, "LNAM": "2F330000022E0001", "CATLMK": [ "3" ], "CONVIS": 1, "HEIGHT": 45.0, "OBJNAM": "HARVEY CHIMNEY" }, "geometry": { "type": "Point", "coordinates": [ 78.1590796, 8.8064167 ] } },
+{ "type": "Feature", "id": 567, "properties": { "RCID": 568, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 568, "FIDS": 1, "LNAM": "2F33000002380001", "CATLMK": [ "17" ], "CONVIS": 1, "HEIGHT": 68.0 }, "geometry": { "type": "Point", "coordinates": [ 78.1419056, 8.7411095 ] } },
+{ "type": "Feature", "id": 568, "properties": { "RCID": 569, "PRIM": 1, "GRUP": 2, "OBJL": 74, "RVER": 1, "AGEN": 12083, "FIDN": 569, "FIDS": 1, "LNAM": "2F33000002390001", "CATLMK": [ "17" ] }, "geometry": { "type": "Point", "coordinates": [ 78.1404744, 8.8071 ] } }
+]
+}

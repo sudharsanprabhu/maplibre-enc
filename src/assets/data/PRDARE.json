@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "PRDARE",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "id": 233, "properties": { "RCID": 234, "PRIM": 3, "GRUP": 2, "OBJL": 97, "RVER": 1, "AGEN": 12083, "FIDN": 234, "FIDS": 1, "LNAM": "2F33000000EA0001", "CATPRA": 4, "OBJNAM": "Tuticorin Thermal Power Station" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 78.1719029, 8.7583615 ], [ 78.1719029, 8.7583046 ], [ 78.1717884, 8.7559132 ], [ 78.1657775, 8.7568812 ], [ 78.166121, 8.7591017 ], [ 78.1675522, 8.769806 ], [ 78.1704145, 8.7687811 ], [ 78.1783718, 8.7663328 ], [ 78.1784291, 8.7632012 ], [ 78.1783718, 8.7609237 ], [ 78.1719029, 8.7621764 ], [ 78.1719029, 8.7583615 ] ] ] } }
+]
+}

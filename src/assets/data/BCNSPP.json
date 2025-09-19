@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "BCNSPP",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "id": 484, "properties": { "RCID": 485, "PRIM": 1, "GRUP": 2, "OBJL": 9, "RVER": 1, "AGEN": 12083, "FIDN": 485, "FIDS": 1, "LNAM": "2F33000001E50001", "LNAM_REFS": [ "2F33000001E60001" ], "FFPT_RIND": [ 2 ], "BCNSHP": 4, "CATSPM": [ "16" ], "COLOUR": [ "1", "3" ], "COLPAT": [ "1" ], "NATCON": [ "7" ], "SORIND": "GB,GB,graph,LL F-0735" }, "geometry": { "type": "Point", "coordinates": [ 78.2179867, 8.756084 ] } },
+{ "type": "Feature", "id": 488, "properties": { "RCID": 489, "PRIM": 1, "GRUP": 2, "OBJL": 9, "RVER": 1, "AGEN": 12083, "FIDN": 489, "FIDS": 1, "LNAM": "2F33000001E90001", "LNAM_REFS": [ "2F33000001EA0001" ], "FFPT_RIND": [ 2 ], "BCNSHP": 3, "CATSPM": [ "16" ], "COLOUR": [ "1", "3" ], "COLPAT": [ "1" ], "NATCON": [ "7" ], "SORIND": "GB,GB,graph,LL F-0735.05" }, "geometry": { "type": "Point", "coordinates": [ 78.2152388, 8.7584754 ] } },
+{ "type": "Feature", "id": 491, "properties": { "RCID": 492, "PRIM": 1, "GRUP": 2, "OBJL": 9, "RVER": 1, "AGEN": 12083, "FIDN": 492, "FIDS": 1, "LNAM": "2F33000001EC0001", "CATSPM": [ "27" ], "COLOUR": [ ], "HEIGHT": 9.0 }, "geometry": { "type": "Point", "coordinates": [ 78.2143229, 8.8342591 ] } },
+{ "type": "Feature", "id": 505, "properties": { "RCID": 506, "PRIM": 1, "GRUP": 2, "OBJL": 9, "RVER": 1, "AGEN": 12083, "FIDN": 506, "FIDS": 1, "LNAM": "2F33000001FA0001", "LNAM_REFS": [ "2F33000001FB0001" ], "FFPT_RIND": [ 2 ], "BCNSHP": 4, "CATSPM": [ "16" ], "COLOUR": [ "1", "2" ], "COLPAT": [ "1" ], "NATCON": [ "7" ], "SORIND": "GB,GB,graph,LL F-0735.1" }, "geometry": { "type": "Point", "coordinates": [ 78.1996104, 8.7723112 ] } },
+{ "type": "Feature", "id": 551, "properties": { "RCID": 552, "PRIM": 1, "GRUP": 2, "OBJL": 9, "RVER": 1, "AGEN": 12083, "FIDN": 552, "FIDS": 1, "LNAM": "2F33000002280001", "CATSPM": [ "27" ], "COLOUR": [ ], "CONDTN": 2 }, "geometry": { "type": "Point", "coordinates": [ 78.165434, 8.8036837 ] } },
+{ "type": "Feature", "id": 555, "properties": { "RCID": 556, "PRIM": 1, "GRUP": 2, "OBJL": 9, "RVER": 1, "AGEN": 12083, "FIDN": 556, "FIDS": 1, "LNAM": "2F330000022C0001", "LNAM_REFS": [ "2F330000022D0001" ], "FFPT_RIND": [ 2 ], "BCNSHP": 4, "CATSPM": [ "16" ], "COLOUR": [ ], "NATCON": [ "7" ], "SORIND": "GB,GB,graph,LL F-0736" }, "geometry": { "type": "Point", "coordinates": [ 78.1603963, 8.8019187 ] } },
+{ "type": "Feature", "id": 559, "properties": { "RCID": 560, "PRIM": 1, "GRUP": 2, "OBJL": 9, "RVER": 1, "AGEN": 12083, "FIDN": 560, "FIDS": 1, "LNAM": "2F33000002300001", "LNAM_REFS": [ "2F33000002310001" ], "FFPT_RIND": [ 2 ], "BCNSHP": 4, "CATSPM": [ "16" ], "COLOUR": [ ], "NATCON": [ "7" ], "SORIND": "GB,GB,graph,LL F-0736.1" }, "geometry": { "type": "Point", "coordinates": [ 78.1580492, 8.8022603 ] } }
+]
+}

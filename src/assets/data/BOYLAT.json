@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "BOYLAT",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "id": 437, "properties": { "RCID": 438, "PRIM": 1, "GRUP": 2, "OBJL": 17, "RVER": 1, "AGEN": 12083, "FIDN": 438, "FIDS": 1, "LNAM": "2F33000001B60001", "LNAM_REFS": [ "2F33000001B70001", "2F330000023B0001" ], "FFPT_RIND": [ 2, 2 ], "BOYSHP": 2, "CATLAM": 1, "COLOUR": [ "3" ], "OBJNAM": "No 18" }, "geometry": { "type": "Point", "coordinates": [ 78.2447209, 8.7313732 ] } },
+{ "type": "Feature", "id": 440, "properties": { "RCID": 441, "PRIM": 1, "GRUP": 2, "OBJL": 17, "RVER": 1, "AGEN": 12083, "FIDN": 441, "FIDS": 1, "LNAM": "2F33000001B90001", "LNAM_REFS": [ "2F33000001BA0001" ], "FFPT_RIND": [ 2 ], "BOYSHP": 2, "CATLAM": 2, "COLOUR": [ "4" ], "OBJNAM": "17" }, "geometry": { "type": "Point", "coordinates": [ 78.2384238, 8.7396291 ] } },
+{ "type": "Feature", "id": 444, "properties": { "RCID": 445, "PRIM": 1, "GRUP": 2, "OBJL": 17, "RVER": 1, "AGEN": 12083, "FIDN": 445, "FIDS": 1, "LNAM": "2F33000001BD0001", "LNAM_REFS": [ "2F33000001BE0001" ], "FFPT_RIND": [ 2 ], "BOYSHP": 2, "CATLAM": 1, "COLOUR": [ "3" ], "OBJNAM": "16" }, "geometry": { "type": "Point", "coordinates": [ 78.2366491, 8.7376363 ] } },
+{ "type": "Feature", "id": 449, "properties": { "RCID": 450, "PRIM": 1, "GRUP": 2, "OBJL": 17, "RVER": 1, "AGEN": 12083, "FIDN": 450, "FIDS": 1, "LNAM": "2F33000001C20001", "LNAM_REFS": [ "2F33000001C30001" ], "FFPT_RIND": [ 2 ], "BOYSHP": 2, "CATLAM": 2, "COLOUR": [ "4" ], "OBJNAM": "15" }, "geometry": { "type": "Point", "coordinates": [ 78.2324129, 8.7445258 ] } },
+{ "type": "Feature", "id": 452, "properties": { "RCID": 453, "PRIM": 1, "GRUP": 2, "OBJL": 17, "RVER": 1, "AGEN": 12083, "FIDN": 453, "FIDS": 1, "LNAM": "2F33000001C50001", "LNAM_REFS": [ "2F33000001C60001" ], "FFPT_RIND": [ 2 ], "BOYSHP": 2, "CATLAM": 1, "COLOUR": [ "3" ], "OBJNAM": "14" }, "geometry": { "type": "Point", "coordinates": [ 78.2310962, 8.7429315 ] } },
+{ "type": "Feature", "id": 507, "properties": { "RCID": 508, "PRIM": 1, "GRUP": 2, "OBJL": 17, "RVER": 1, "AGEN": 12083, "FIDN": 508, "FIDS": 1, "LNAM": "2F33000001FC0001", "LNAM_REFS": [ "2F33000001FD0001" ], "FFPT_RIND": [ 2 ], "BOYSHP": 2, "CATLAM": 1, "COLOUR": [ "3" ] }, "geometry": { "type": "Point", "coordinates": [ 78.1990379, 8.7972498 ] } }
+]
+}
