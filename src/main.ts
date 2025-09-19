@@ -5,6 +5,7 @@ import ACHARE from "./assets/data/ACHARE.json";
 import DRGARE from "./assets/data/DRGARE.json";
 import DEPARE from "./assets/data/DEPARE.json";
 import SOUNDG from "./assets/data/SOUNDG.json";
+import BCNSPP from "./assets/data/BCNSPP.json";
 import BOYLAT from "./assets/data/BOYLAT.json";
 
 import { Lndare } from "./stylers/lndare";
@@ -12,6 +13,7 @@ import { Drgare } from "./stylers/drgare";
 import { Depare } from "./stylers/depare";
 import { Soundg } from "./stylers/soundg";
 import { Achare } from "./stylers/achare";
+import { Bcnspp } from "./stylers/bcnspp";
 import { Boylat } from "./stylers/boylat";
 import { GeoJSONParser, MultiPoint } from "./geojson";
 
@@ -39,5 +41,6 @@ map.on("load", () => {
     new Drgare(DRGARE, map);
     new Achare(ACHARE, map);
     new Soundg(soundgData, map);
+    new Bcnspp(BCNSPP, map);
     new Boylat(BOYLAT, map);
 })
