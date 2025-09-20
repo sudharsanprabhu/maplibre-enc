@@ -1,5 +1,6 @@
 import maplibregl from "maplibre-gl";
 
+/** Anchorage area */
 export class Achare {
 
     private map: maplibregl.Map;
@@ -21,7 +22,7 @@ export class Achare {
             type: "line",
             source: id,
             paint: {
-                "line-color": ["rgb", 197, 69, 195],
+                "line-color": "rgb(197, 69, 195)",
                 "line-width": 2,
                 "line-dasharray": [6, 3]
             },

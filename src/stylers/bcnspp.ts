@@ -2,7 +2,7 @@ import maplibregl from "maplibre-gl";
 import { GeoJSONParser } from "../geojson";
 import { Point } from "../geojson";
 
-
+/** Beacon, special purpose/general (Point) */
 export class Bcnspp {
 
     private map: maplibregl.Map;
@@ -227,7 +227,7 @@ export class Bcnspp {
     }
 
  
-    async render(id: string) {
+    render(id: string) {
         this.map.addLayer({
             id,
             type: "symbol",
@@ -249,7 +249,7 @@ export class Bcnspp {
                 "text-offset": [1, 1]
             },
             paint: {
-                "text-color": ["rgb", 7, 7, 7]
+                "text-color": "rgb(7, 7, 7)"
             }
         });
     }

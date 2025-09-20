@@ -3,6 +3,7 @@ import { GeoJSONParser } from "../geojson";
 import { Point } from "../geojson";
 
 
+/** Buoy, lateral (Point) */
 export class Boylat {
 
     private map: maplibregl.Map;
@@ -275,7 +276,7 @@ export class Boylat {
     }
 
  
-    async render(id: string) {
+    render(id: string) {
         this.map.addLayer({
             id,
             type: "symbol",
@@ -297,7 +298,7 @@ export class Boylat {
                 "text-offset": [1, 1]
             },
             paint: {
-                "text-color": ["rgb", 7, 7, 7]
+                "text-color": "rgb(7, 7, 7)"
             }
         });
     }

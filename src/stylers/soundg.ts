@@ -16,7 +16,7 @@ export class Soundg {
         this.render(id);
     }
 
-    async render(id: string) {
+    render(id: string) {
         this.map.addLayer({
             id: `${id}`,
             type: "symbol",
