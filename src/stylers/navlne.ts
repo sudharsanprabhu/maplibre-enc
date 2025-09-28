@@ -1,8 +1,8 @@
 import maplibregl from "maplibre-gl";
 
 
-/** Land area (Polygon) */
-export class Lndare {
+/** Navigation line (Line) */
+export class Navlne {
 
     private map: maplibregl.Map;
 
@@ -19,11 +19,17 @@ export class Lndare {
 
     render(id: string) {
         this.map.addLayer({
-            id: `${id}-polygon`,
-            type: "fill",
+            id: `${id}-polyline`,
+            type: "line",
             source: id,
+            layout: {
+                "line-cap": "round",
+                "line-join": "round"
+            },
             paint: {
-                "fill-color": "rgb(201, 185, 122)"
+                "line-color": "rgb(125, 137, 140)",
+                "line-width": 1,
+                "line-dasharray": [12, 6]
             }
         });
 
@@ -31,10 +37,12 @@ export class Lndare {
             id: `${id}-label`,
             type: "symbol",
             source: id,
+            filter: [">", ["get", "ORIENT"], 0],
             layout: {
-                "text-field": ["get", "OBJNAM"],
+                "text-field": ["concat", ["get", "ORIENT"], " deg"],
                 "text-size": 7,
-                "text-offset": [1, 1]
+                "text-offset": [1, -1],
+                "symbol-placement": "line-center"
             },
             paint: {
                 "text-color": "rgb(7, 7, 7)"

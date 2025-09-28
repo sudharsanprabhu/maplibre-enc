@@ -24,7 +24,7 @@ export class Achare {
             paint: {
                 "line-color": "rgb(197, 69, 195)",
                 "line-width": 2,
-                "line-dasharray": [6, 3]
+                "line-dasharray": [12/2, 6/2]
             },
             layout: {
                 "line-cap": "round",

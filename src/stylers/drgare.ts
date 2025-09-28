@@ -1,6 +1,7 @@
 import maplibregl from "maplibre-gl";
 
 
+/** Dredged area (Polygon) */
 export class Drgare {
 
     private map: maplibregl.Map;
@@ -18,19 +19,34 @@ export class Drgare {
 
     render(id: string) {
         this.map.addLayer({
-            id: id,
+            id: `${id}-polygon`,
             type: "fill",
             source: id,
             paint: {
                 "fill-color": [
                     "case",
-                    ["==", ["to-boolean", ["get", "DRVAL1"]], false], ["rgb", 131, 178, 149],
-                    [">=", ["get", "DRVAL1"], 30], ["rgb", 212, 234, 238],
-                    [">=", ["get", "DRVAL1"], 20], ["rgb", 152, 197, 242],
-                    [">=", ["get", "DRVAL1"], 10], ["rgb", 186, 213, 225],
-                    [">=", ["get", "DRVAL1"], 0], ["rgb", 115, 182, 239],
-                    ["rgb", 131, 178, 149]
+                    ["!", ["has", "DRVAL1"]], "rgb(131, 178, 149)",
+                    [">=", ["get", "DRVAL1"], 30], "rgb(212, 234, 238)",
+                    [">=", ["get", "DRVAL1"], 20], "rgb(152, 197, 242)",
+                    [">=", ["get", "DRVAL1"], 10], "rgb(186, 213, 225)",
+                    [">=", ["get", "DRVAL1"], 0], "rgb(115, 182, 239)",
+                    "rgb(131, 178, 149)"
                 ]
+            }
+        });
+
+        this.map.addLayer({
+            id: `${id}-polyline`,
+            type: "line",
+            source: id,
+            layout: {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            paint: {
+                "line-color": "rgb(163, 180, 183)",
+                "line-width": 1,
+                "line-dasharray": [12, 6]
             }
         });
     }
