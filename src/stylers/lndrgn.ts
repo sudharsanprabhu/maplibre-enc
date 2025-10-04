@@ -17,13 +17,7 @@ export class Lndrgn {
         this.render(id);
     }
 
-    async render(id: string) {
-        const MARSHES1 = await this.map.loadImage("assets/icons/MARSHES1.png");
-        this.map.addImage("MARSHES1", MARSHES1.data);
-
-        const POSGEN04 = await this.map.loadImage("assets/icons/POSGEN04.png");
-        this.map.addImage("POSGEN04", POSGEN04.data);
-
+    render(id: string) {
         this.map.addLayer({
             id: `${id}-polygon`,
             type: "symbol",

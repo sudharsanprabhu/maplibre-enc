@@ -17,15 +17,7 @@ export class Obstrn {
         this.render(id);
     }
 
-    async render(id: string) {
-        const QUESMRK1 = await this.map.loadImage("assets/icons/QUESMRK1.png");
-        this.map.addImage("QUESMRK1", QUESMRK1.data);
-
-        if(!this.map.hasImage("ACHARE02")) {
-            const ACHARE02 = await this.map.loadImage("assets/icons/ACHARE02.png");
-            this.map.addImage("ACHARE02", ACHARE02.data);
-        }
-
+    render(id: string) {
         this.map.addLayer({
             id: `${id}-icon`,
             type: "symbol",

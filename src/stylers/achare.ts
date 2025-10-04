@@ -16,7 +16,7 @@ export class Achare {
         this.render(id);
     }
 
-    async render(id: string) {
+    render(id: string) {
         this.map.addLayer({
             id: id,
             type: "line",
@@ -32,9 +32,6 @@ export class Achare {
             }
         });
 
-        const imagePath = "assets/icons/ACHARE02.png";
-        const achareImage = await this.map.loadImage(imagePath);
-        this.map.addImage("ACHARE02", achareImage.data);
 
         this.map.addLayer({
             id: `${id}-marker`,

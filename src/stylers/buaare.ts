@@ -18,7 +18,7 @@ export class Buaare {
         this.render(id);
     }
  
-    async render(id: string) {
+    render(id: string) {
         // Polygon
         this.map.addLayer({
             id: `${id}-polygon`,

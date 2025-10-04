@@ -18,10 +18,7 @@ export class Bridge {
         this.render(id);
     }
  
-    async render(id: string) {
-        const image = await this.map.loadImage("assets/icons/BRIDGE01.png");
-        this.map.addImage("BRIDGE01", image.data);
-
+    render(id: string) {
         // Icon
         this.map.addLayer({
             id: `${id}-icon`,

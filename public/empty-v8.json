@@ -6,6 +6,7 @@
   },
   "glyphs": "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
   "sources": {},
+  "sprite": "http://localhost:5173/assets/sprites/rastersymbols-day",
   "layers": [
     {
       "id": "background",

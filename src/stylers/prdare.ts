@@ -17,16 +17,7 @@ export class Prdare {
         this.render(id);
     }
 
-    async render(id: string) {
-        const RFNERY11 = await this.map.loadImage("assets/icons/RFNERY11.png");
-        this.map.addImage("RFNERY11", RFNERY11.data);
-
-        const TNKFRM11 = await this.map.loadImage("assets/icons/TNKFRM11.png");
-        this.map.addImage("TNKFRM11", TNKFRM11.data);
-
-        const WNDFRM61 = await this.map.loadImage("assets/icons/WNDFRM61.png");
-        this.map.addImage("WNDFRM61", WNDFRM61.data);
-
+    render(id: string) {
         this.map.addLayer({
             id: `${id}-icon`,
             type: "symbol",

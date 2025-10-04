@@ -18,7 +18,7 @@ export class Coalne {
         this.render(id);
     }
  
-    async render(id: string) {
+    render(id: string) {
         // Polyline (With dash array)
         this.map.addLayer({
             id: `${id}-polyline1`,

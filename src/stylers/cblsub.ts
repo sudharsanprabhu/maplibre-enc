@@ -18,7 +18,7 @@ export class Cblsub {
         this.render(id);
     }
  
-    async render(id: string) {
+    render(id: string) {
         // Polyline
         this.map.addLayer({
             id: `${id}-polyline`,

@@ -8,7 +8,6 @@ export class Lights {
 
     private map: maplibregl.Map;
     private data: GeoJSONParser<Point>;
-    private addedIcons = new Set<string>();
 
     constructor(data: any, map: maplibregl.Map) {
         this.map = map;
@@ -98,19 +97,6 @@ export class Lights {
         else {
             icon = null;
             offset = null;
-        }
-        
-
-        if(icon && !this.addedIcons.has(icon)) {            
-            const imagePath = `assets/icons/${icon}.png`;
-            this.map.loadImage(imagePath)
-                .then((image) => this.map.addImage(icon, image.data))
-                .catch((err) => {
-                    console.log(err);
-                    this.addedIcons.delete(icon);
-                });
-
-            this.addedIcons.add(icon);
         }
 
         return { icon, offset };

@@ -17,10 +17,7 @@ export class Pilpnt {
         this.render(id);
     }
 
-    async render(id: string) {
-        const PILPNT02 = await this.map.loadImage("assets/icons/PILPNT02.png");
-        this.map.addImage("PILPNT02", PILPNT02.data);
-
+    render(id: string) {
         this.map.addLayer({
             id: `${id}-icon`,
             type: "symbol",
